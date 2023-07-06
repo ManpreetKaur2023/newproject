@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 179.466 s <<< FAILURE! - in TestSuite
+validateUserRegisterWithValidDetails(com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest)  Time elapsed: 4.521 s  <<< FAILURE!
+java.lang.AssertionError: Unable to create account expected [Your Account Has Been Created!] but found [Register Account]
+	at com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest.validateUserRegisterWithValidDetails(AccountHasBeenCreatedTest.java:32)
+
+validateLoginUsingValidCredential(com.naveenautomationlabs.automationFramework.tests.MyAccountTest)  Time elapsed: 1.696 s  <<< FAILURE!
+java.lang.AssertionError: You are on wrong page expected [My Account] but found [New Customer]
+	at com.naveenautomationlabs.automationFramework.tests.MyAccountTest.validateLoginUsingValidCredential(MyAccountTest.java:33)
+
+validateSideNavigationBar(com.naveenautomationlabs.automationFramework.tests.MyAccountTest)  Time elapsed: 1.907 s  <<< FAILURE!
+java.lang.AssertionError: navigation option  is not clicked expected [true] but found [false]
+	at com.naveenautomationlabs.automationFramework.tests.MyAccountTest.validateSideNavigationBar(MyAccountTest.java:42)
+
+failedTestCaseExample(com.naveenautomationlabs.automationFramework.tests.YourStoreTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [Kaur] but found [Manpreet]
+	at com.naveenautomationlabs.automationFramework.tests.YourStoreTest.failedTestCaseExample(YourStoreTest.java:33)
+
+validateIsImageSelectedFromVisibleText(com.naveenautomationlabs.automationFramework.tests.YourStoreTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Entered text is null.
+	at com.naveenautomationlabs.automationFramework.tests.YourStoreTest.validateIsImageSelectedFromVisibleText(YourStoreTest.java:56)
+
+test(com.naveenautomationlabs.automationFramework.tests.MyWishListTest)  Time elapsed: 2.664 s  <<< FAILURE!
+java.util.NoSuchElementException
+	at com.naveenautomationlabs.automationFramework.tests.MyWishListTest.test(MyWishListTest.java:41)
+
