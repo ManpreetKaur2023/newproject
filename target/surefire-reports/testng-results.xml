@@ -2,24 +2,38 @@
 <testng-results ignored="0" total="15" passed="9" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-05T17:58:57Z" name="Surefire suite" finished-at="2023-07-05T18:01:55Z" duration-ms="178305">
+  <suite started-at="2023-07-09T01:27:01Z" name="Surefire suite" finished-at="2023-07-09T01:30:07Z" duration-ms="186049">
     <groups>
     </groups>
-    <test started-at="2023-07-05T17:58:57Z" name="Surefire test" finished-at="2023-07-05T18:01:55Z" duration-ms="178305">
-      <class name="com.naveenautomationlabs.automationFramework.tests.YourStoreTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:39Z" name="setUpLogger" finished-at="2023-07-05T18:00:39Z" duration-ms="4" status="PASS">
+    <test started-at="2023-07-09T01:27:01Z" name="Surefire test" finished-at="2023-07-09T01:30:07Z" duration-ms="186049">
+      <class name="com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-09T01:28:40Z" name="setUpLogger" finished-at="2023-07-09T01:28:40Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:39Z" name="setUp" finished-at="2023-07-05T18:00:46Z" duration-ms="7154" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-09T01:28:40Z" name="setUp" finished-at="2023-07-09T01:28:47Z" duration-ms="7482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:46Z" name="quit" finished-at="2023-07-05T18:00:46Z" duration-ms="415" status="PASS">
+        <test-method signature="validateUserRegisterWithAlreadyRegisteredEmail()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-09T01:28:47Z" name="validateUserRegisterWithAlreadyRegisteredEmail" finished-at="2023-07-09T01:28:52Z" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserRegisterWithAlreadyRegisteredEmail -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-09T01:28:52Z" name="quit" finished-at="2023-07-09T01:28:52Z" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="failedTestCaseExample()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:46Z" name="failedTestCaseExample" finished-at="2023-07-05T18:00:46Z" duration-ms="0" status="FAIL">
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest -->
+      <class name="com.naveenautomationlabs.automationFramework.tests.YourStoreTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:28:52Z" name="setUpLogger" finished-at="2023-07-09T01:28:52Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:28:52Z" name="setUp" finished-at="2023-07-09T01:29:00Z" duration-ms="7568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="failedTestCaseExample()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:00Z" name="failedTestCaseExample" finished-at="2023-07-09T01:29:00Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Kaur] but found [Manpreet]]]>
@@ -69,23 +83,27 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedTestCaseExample -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:46Z" name="setUp" finished-at="2023-07-05T18:00:54Z" duration-ms="7406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateIsDisplayImageMoving()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:00:54Z" name="validateIsDisplayImageMoving" finished-at="2023-07-05T18:01:04Z" duration-ms="10194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateIsDisplayImageMoving -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:04Z" name="quit" finished-at="2023-07-05T18:01:04Z" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:00Z" name="quit" finished-at="2023-07-09T01:29:00Z" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:04Z" name="setUp" finished-at="2023-07-05T18:01:17Z" duration-ms="12891" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:00Z" name="setUp" finished-at="2023-07-09T01:29:08Z" duration-ms="7695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateIsImageSelectedFromVisibleText()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:17Z" name="validateIsImageSelectedFromVisibleText" finished-at="2023-07-05T18:01:17Z" duration-ms="1" status="FAIL">
+        <test-method signature="validateIsDisplayImageMoving()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:08Z" name="validateIsDisplayImageMoving" finished-at="2023-07-09T01:29:18Z" duration-ms="10393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIsDisplayImageMoving -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:18Z" name="quit" finished-at="2023-07-09T01:29:18Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:18Z" name="setUp" finished-at="2023-07-09T01:29:26Z" duration-ms="7276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateIsImageSelectedFromVisibleText()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:26Z" name="validateIsImageSelectedFromVisibleText" finished-at="2023-07-09T01:29:26Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Entered text is null.]]>
@@ -130,63 +148,45 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateIsImageSelectedFromVisibleText -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:17Z" name="quit" finished-at="2023-07-05T18:01:17Z" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:26Z" name="quit" finished-at="2023-07-09T01:29:26Z" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:17Z" name="setUp" finished-at="2023-07-05T18:01:25Z" duration-ms="8038" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:26Z" name="setUp" finished-at="2023-07-09T01:29:33Z" duration-ms="7330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateItemsAddedToTheWishlist()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:25Z" name="validateItemsAddedToTheWishlist" finished-at="2023-07-05T18:01:26Z" duration-ms="920" status="PASS">
+        <test-method signature="validateItemsAddedToTheWishlist()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:33Z" name="validateItemsAddedToTheWishlist" finished-at="2023-07-09T01:29:34Z" duration-ms="912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateItemsAddedToTheWishlist -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:26Z" name="quit" finished-at="2023-07-05T18:01:26Z" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:34Z" name="quit" finished-at="2023-07-09T01:29:34Z" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:26Z" name="setUp" finished-at="2023-07-05T18:01:34Z" duration-ms="7620" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:34Z" name="setUp" finished-at="2023-07-09T01:29:42Z" duration-ms="7213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLogoIsDisplayed()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:34Z" name="validateLogoIsDisplayed" finished-at="2023-07-05T18:01:34Z" duration-ms="80" status="PASS">
+        <test-method signature="validateLogoIsDisplayed()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:42Z" name="validateLogoIsDisplayed" finished-at="2023-07-09T01:29:42Z" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogoIsDisplayed -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-05T18:01:34Z" name="quit" finished-at="2023-07-05T18:01:34Z" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.YourStoreTest@2a4fb17b]" started-at="2023-07-09T01:29:42Z" name="quit" finished-at="2023-07-09T01:29:42Z" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.YourStoreTest -->
-      <class name="com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-05T18:00:27Z" name="setUpLogger" finished-at="2023-07-05T18:00:27Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-05T18:00:27Z" name="setUp" finished-at="2023-07-05T18:00:35Z" duration-ms="8221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateUserRegisterWithAlreadyRegisteredEmail()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-05T18:00:35Z" name="validateUserRegisterWithAlreadyRegisteredEmail" finished-at="2023-07-05T18:00:38Z" duration-ms="3467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserRegisterWithAlreadyRegisteredEmail -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest@31304f14]" started-at="2023-07-05T18:00:38Z" name="quit" finished-at="2023-07-05T18:00:39Z" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quit -->
-      </class> <!-- com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest -->
       <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:14Z" name="setUpLogger" finished-at="2023-07-05T17:59:14Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:28Z" name="setUpLogger" finished-at="2023-07-09T01:27:28Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:20Z" name="setUp" finished-at="2023-07-05T17:59:27Z" duration-ms="6855" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:31Z" name="setUp" finished-at="2023-07-09T01:27:40Z" duration-ms="8805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:27Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-05T17:59:29Z" duration-ms="2166" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:40Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-09T01:27:42Z" duration-ms="2314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,15 +202,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:29Z" name="quit" finished-at="2023-07-05T17:59:29Z" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:42Z" name="quit" finished-at="2023-07-09T01:27:42Z" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:29Z" name="setUp" finished-at="2023-07-05T17:59:36Z" duration-ms="6968" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:42Z" name="setUp" finished-at="2023-07-09T01:27:52Z" duration-ms="9472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:36Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-05T17:59:39Z" duration-ms="2629" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:52Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-09T01:27:54Z" duration-ms="2611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,15 +226,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:39Z" name="quit" finished-at="2023-07-05T17:59:39Z" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:54Z" name="quit" finished-at="2023-07-09T01:27:55Z" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:39Z" name="setUp" finished-at="2023-07-05T17:59:47Z" duration-ms="7734" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:27:55Z" name="setUp" finished-at="2023-07-09T01:28:03Z" duration-ms="8429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:47Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-05T17:59:49Z" duration-ms="2137" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:03Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-09T01:28:06Z" duration-ms="2423" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,15 +250,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:49Z" name="quit" finished-at="2023-07-05T17:59:49Z" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:06Z" name="quit" finished-at="2023-07-09T01:28:06Z" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:49Z" name="setUp" finished-at="2023-07-05T17:59:56Z" duration-ms="7114" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:06Z" name="setUp" finished-at="2023-07-09T01:28:15Z" duration-ms="8759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:56Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-05T17:59:59Z" duration-ms="2525" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:15Z" name="loginTest" data-provider="LoginDataProvider" finished-at="2023-07-09T01:28:17Z" duration-ms="2565" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -274,15 +274,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:59Z" name="quit" finished-at="2023-07-05T17:59:59Z" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:17Z" name="quit" finished-at="2023-07-09T01:28:18Z" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T17:59:59Z" name="setUp" finished-at="2023-07-05T18:00:15Z" duration-ms="15686" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:18Z" name="setUp" finished-at="2023-07-09T01:28:27Z" duration-ms="9503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginUsingValidCredential()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T18:00:15Z" name="validateLoginUsingValidCredential" finished-at="2023-07-05T18:00:16Z" duration-ms="1695" status="FAIL">
+        <test-method signature="validateLoginUsingValidCredential()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:27Z" name="validateLoginUsingValidCredential" finished-at="2023-07-09T01:28:29Z" duration-ms="1912" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[You are on wrong page expected [My Account] but found [New Customer]]]>
@@ -331,15 +331,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginUsingValidCredential -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T18:00:16Z" name="quit" finished-at="2023-07-05T18:00:17Z" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:29Z" name="quit" finished-at="2023-07-09T01:28:29Z" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T18:00:17Z" name="setUp" finished-at="2023-07-05T18:00:24Z" duration-ms="7988" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:29Z" name="setUp" finished-at="2023-07-09T01:28:37Z" duration-ms="8102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSideNavigationBar()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T18:00:24Z" name="validateSideNavigationBar" finished-at="2023-07-05T18:00:26Z" duration-ms="1906" status="FAIL">
+        <test-method signature="validateSideNavigationBar()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:37Z" name="validateSideNavigationBar" finished-at="2023-07-09T01:28:40Z" duration-ms="2219" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[navigation option  is not clicked expected [true] but found [false]]]>
@@ -386,21 +386,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSideNavigationBar -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-05T18:00:26Z" name="quit" finished-at="2023-07-05T18:00:27Z" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyAccountTest@4135c3b]" started-at="2023-07-09T01:28:40Z" name="quit" finished-at="2023-07-09T01:28:40Z" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyAccountTest -->
       <class name="com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-05T17:58:57Z" name="setUpLogger" finished-at="2023-07-05T17:58:58Z" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-09T01:27:01Z" name="setUpLogger" finished-at="2023-07-09T01:27:01Z" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-05T17:58:58Z" name="setUp" finished-at="2023-07-05T17:59:09Z" duration-ms="11302" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-09T01:27:01Z" name="setUp" finished-at="2023-07-09T01:27:21Z" duration-ms="20124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateUserRegisterWithValidDetails()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-05T17:59:09Z" name="validateUserRegisterWithValidDetails" finished-at="2023-07-05T17:59:13Z" duration-ms="4509" status="FAIL">
+        <test-method signature="validateUserRegisterWithValidDetails()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-09T01:27:21Z" name="validateUserRegisterWithValidDetails" finished-at="2023-07-09T01:27:27Z" duration-ms="6084" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Unable to create account expected [Your Account Has Been Created!] but found [Register Account]]]>
@@ -449,21 +449,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserRegisterWithValidDetails -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-05T17:59:13Z" name="quit" finished-at="2023-07-05T17:59:14Z" duration-ms="984" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest@2a65fe7c]" started-at="2023-07-09T01:27:27Z" name="quit" finished-at="2023-07-09T01:27:28Z" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest -->
       <class name="com.naveenautomationlabs.automationFramework.tests.MyWishListTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-05T18:01:34Z" name="setUpLogger" finished-at="2023-07-05T18:01:34Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-09T01:29:42Z" name="setUpLogger" finished-at="2023-07-09T01:29:42Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-05T18:01:34Z" name="setUp" finished-at="2023-07-05T18:01:42Z" duration-ms="7744" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-09T01:29:42Z" name="setUp" finished-at="2023-07-09T01:29:51Z" duration-ms="9047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-05T18:01:42Z" name="test" finished-at="2023-07-05T18:01:45Z" duration-ms="2660" status="FAIL">
+        <test-method signature="test()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-09T01:29:51Z" name="test" finished-at="2023-07-09T01:29:54Z" duration-ms="3099" status="FAIL">
           <exception class="java.util.NoSuchElementException">
             <full-stacktrace>
               <![CDATA[java.util.NoSuchElementException
@@ -505,25 +505,25 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-05T18:01:45Z" name="quit" finished-at="2023-07-05T18:01:45Z" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.MyWishListTest@6302bbb1]" started-at="2023-07-09T01:29:54Z" name="quit" finished-at="2023-07-09T01:29:54Z" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyWishListTest -->
       <class name="com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest">
-        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-05T18:01:45Z" name="setUpLogger" finished-at="2023-07-05T18:01:45Z" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-09T01:29:54Z" name="setUpLogger" finished-at="2023-07-09T01:29:54Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpLogger -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-05T18:01:45Z" name="setUp" finished-at="2023-07-05T18:01:54Z" duration-ms="8633" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-09T01:29:54Z" name="setUp" finished-at="2023-07-09T01:30:05Z" duration-ms="11252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSearchBar()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-05T18:01:54Z" name="validateSearchBar" finished-at="2023-07-05T18:01:55Z" duration-ms="1491" status="PASS">
+        <test-method signature="validateSearchBar()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-09T01:30:05Z" name="validateSearchBar" finished-at="2023-07-09T01:30:07Z" duration-ms="1298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchBar -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-05T18:01:55Z" name="quit" finished-at="2023-07-05T18:01:55Z" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlabs.automationFramework.tests.SearchIphoneTest@34a3d150]" started-at="2023-07-09T01:30:07Z" name="quit" finished-at="2023-07-09T01:30:07Z" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

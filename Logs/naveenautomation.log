@@ -3235,3 +3235,215 @@
 2023-07-05 14:01:55 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (492241b8cfc6b1157b3bc2c363c007b3)] -> css selector: #search button]
 2023-07-05 14:01:55 INFO  TestBase:87 - Finding Element: By.cssSelector: div.col-sm-12 h1
 2023-07-05 14:01:55 INFO  TestBase:93 - Found Element: By.cssSelector: div.col-sm-12 h1
+2023-07-08 21:27:15 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:21 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:21 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:22 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:22 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f30c09dfe717d5ca60d80eee4c4e2628)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:27:22 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-08 21:27:22 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-08 21:27:24 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f30c09dfe717d5ca60d80eee4c4e2628)] -> css selector: ul.list-inline li:nth-of-type(2) ul>li ]
+2023-07-08 21:27:24 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-firstname
+2023-07-08 21:27:24 INFO  TestBase:93 - Found Element: By.cssSelector: #input-firstname
+2023-07-08 21:27:25 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-lastname
+2023-07-08 21:27:25 INFO  TestBase:93 - Found Element: By.cssSelector: #input-lastname
+2023-07-08 21:27:25 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:27:25 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:27:25 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-telephone
+2023-07-08 21:27:25 INFO  TestBase:93 - Found Element: By.cssSelector: #input-telephone
+2023-07-08 21:27:25 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:27:26 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:27:26 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-confirm
+2023-07-08 21:27:26 INFO  TestBase:93 - Found Element: By.cssSelector: #input-confirm
+2023-07-08 21:27:26 INFO  TestBase:87 - Finding Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-08 21:27:26 INFO  TestBase:93 - Found Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-08 21:27:26 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='checkbox']
+2023-07-08 21:27:26 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='checkbox']
+2023-07-08 21:27:26 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f30c09dfe717d5ca60d80eee4c4e2628)] -> css selector: input[type='checkbox']]
+2023-07-08 21:27:26 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='submit']
+2023-07-08 21:27:26 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='submit']
+2023-07-08 21:27:27 INFO  TestBase:87 - Finding Element: By.cssSelector: #content h1
+2023-07-08 21:27:27 INFO  TestBase:93 - Found Element: By.cssSelector: #content h1
+2023-07-08 21:27:28 INFO  TestBase:58 - data provider gets executed
+2023-07-08 21:27:34 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:40 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:40 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:40 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:40 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (6d36e6f3e61fcd926775e1c4811e4bfd)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:27:40 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:27:40 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:27:41 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (6d36e6f3e61fcd926775e1c4811e4bfd)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:27:41 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:27:41 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:27:41 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:27:41 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:27:42 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:27:42 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:27:42 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (6d36e6f3e61fcd926775e1c4811e4bfd)] -> css selector: input[value='Login']]
+2023-07-08 21:27:44 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:51 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:27:52 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:52 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:27:52 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (871f899024a19e255def7190796c6bae)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:27:52 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:27:52 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:27:53 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (871f899024a19e255def7190796c6bae)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:27:53 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:27:53 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:27:53 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:27:53 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:27:53 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:27:53 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:27:54 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (871f899024a19e255def7190796c6bae)] -> css selector: input[value='Login']]
+2023-07-08 21:27:57 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:03 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:03 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:03 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:04 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (e4eec0a870716e00c59dfd6b26c0c849)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:28:04 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:04 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:04 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (e4eec0a870716e00c59dfd6b26c0c849)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:28:04 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:28:04 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:28:05 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:28:05 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:28:05 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:05 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:06 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (e4eec0a870716e00c59dfd6b26c0c849)] -> css selector: input[value='Login']]
+2023-07-08 21:28:07 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:15 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:15 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (510bab7ee78020c5277014217a02eda3)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:16 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (510bab7ee78020c5277014217a02eda3)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:17 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (510bab7ee78020c5277014217a02eda3)] -> css selector: input[value='Login']]
+2023-07-08 21:28:19 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:27 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:27 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:27 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:27 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (488b844be9b41bb175c6af3422c7b6d4)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:28:27 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:27 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:28 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (488b844be9b41bb175c6af3422c7b6d4)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:28:28 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:28 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:29 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (488b844be9b41bb175c6af3422c7b6d4)] -> css selector: input[value='Login']]
+2023-07-08 21:28:29 INFO  TestBase:87 - Finding Element: By.cssSelector: #content h2
+2023-07-08 21:28:29 INFO  TestBase:93 - Found Element: By.cssSelector: #content h2
+2023-07-08 21:28:31 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:37 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:37 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:37 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:37 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (9ae497f1cca1edb5207529869735f9c4)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:28:37 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:38 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:28:38 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (9ae497f1cca1edb5207529869735f9c4)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:28:38 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:38 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:28:39 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (9ae497f1cca1edb5207529869735f9c4)] -> css selector: input[value='Login']]
+2023-07-08 21:28:39 INFO  TestBase:87 - Finding Element: By.cssSelector: div.list-group a
+2023-07-08 21:28:39 INFO  TestBase:93 - Found Element: By.cssSelector: div.list-group a
+2023-07-08 21:28:42 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:47 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:47 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:47 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:28:48 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (5d081be8ff6ef9bb5c7d9616e3ab8524)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:28:48 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-08 21:28:48 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-08 21:28:49 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (5d081be8ff6ef9bb5c7d9616e3ab8524)] -> css selector: ul.list-inline li:nth-of-type(2) ul>li ]
+2023-07-08 21:28:49 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-firstname
+2023-07-08 21:28:49 INFO  TestBase:93 - Found Element: By.cssSelector: #input-firstname
+2023-07-08 21:28:50 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-lastname
+2023-07-08 21:28:50 INFO  TestBase:93 - Found Element: By.cssSelector: #input-lastname
+2023-07-08 21:28:50 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-08 21:28:50 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-08 21:28:50 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-telephone
+2023-07-08 21:28:50 INFO  TestBase:93 - Found Element: By.cssSelector: #input-telephone
+2023-07-08 21:28:51 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-08 21:28:51 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-08 21:28:51 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-confirm
+2023-07-08 21:28:51 INFO  TestBase:93 - Found Element: By.cssSelector: #input-confirm
+2023-07-08 21:28:51 INFO  TestBase:87 - Finding Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-08 21:28:51 INFO  TestBase:93 - Found Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-08 21:28:51 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='checkbox']
+2023-07-08 21:28:51 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='checkbox']
+2023-07-08 21:28:51 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (5d081be8ff6ef9bb5c7d9616e3ab8524)] -> css selector: input[type='checkbox']]
+2023-07-08 21:28:51 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='submit']
+2023-07-08 21:28:51 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='submit']
+2023-07-08 21:28:52 INFO  TestBase:87 - Finding Element: By.cssSelector: div.alert
+2023-07-08 21:28:52 INFO  TestBase:93 - Found Element: By.cssSelector: div.alert
+2023-07-08 21:28:54 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:28:59 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:02 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:08 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:08 INFO  TestBase:87 - Finding Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:08 INFO  TestBase:93 - Found Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:08 INFO  TestBase:87 - Finding Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:08 INFO  TestBase:93 - Found Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:18 INFO  TestBase:87 - Finding Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:18 INFO  TestBase:93 - Found Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:18 INFO  TestBase:87 - Finding Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:18 INFO  TestBase:93 - Found Element: By.cssSelector: div.slideshow
+2023-07-08 21:29:20 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:25 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:27 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:33 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:33 INFO  TestBase:93 - Found Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f8443829f8552dd9ffe75b3ec2c41182)] -> css selector: #common-home div.col-sm-12 div.row>div:nth-of-type(2) div.button-group button:nth-of-type(2)]
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:33 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:34 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:34 INFO  TestBase:87 - Finding Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:34 INFO  TestBase:93 - Found Element: By.cssSelector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)
+2023-07-08 21:29:34 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (f8443829f8552dd9ffe75b3ec2c41182)] -> css selector: #common-home div.col-sm-12 div.row>div:nth-of-type(1) div.button-group button:nth-of-type(2)]
+2023-07-08 21:29:34 INFO  TestBase:87 - Finding Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:34 INFO  TestBase:93 - Found Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:34 INFO  TestBase:87 - Finding Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:34 INFO  TestBase:93 - Found Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:34 INFO  TestBase:87 - Finding Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:34 INFO  TestBase:93 - Found Element: By.cssSelector: #wishlist-total  span
+2023-07-08 21:29:36 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:41 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:42 INFO  TestBase:87 - Finding Element: By.cssSelector: #logo
+2023-07-08 21:29:42 INFO  TestBase:93 - Found Element: By.cssSelector: #logo
+2023-07-08 21:29:43 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:51 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:29:51 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:29:51 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-08 21:29:51 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0652c26c34b1037a289e6258fbf661e6)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-08 21:29:51 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:29:51 INFO  TestBase:93 - Found Element: By.cssSelector: ul.dropdown-menu  li:nth-of-type(2) a
+2023-07-08 21:29:52 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0652c26c34b1037a289e6258fbf661e6)] -> css selector: ul.dropdown-menu  li:nth-of-type(2) a]
+2023-07-08 21:29:52 INFO  TestBase:87 - Finding Element: By.cssSelector: input[value='Login']
+2023-07-08 21:29:52 INFO  TestBase:93 - Found Element: By.cssSelector: input[value='Login']
+2023-07-08 21:29:53 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0652c26c34b1037a289e6258fbf661e6)] -> css selector: input[value='Login']]
+2023-07-08 21:29:53 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline li:nth-of-type(3) span
+2023-07-08 21:29:53 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline li:nth-of-type(3) span
+2023-07-08 21:29:54 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0652c26c34b1037a289e6258fbf661e6)] -> css selector: ul.list-inline li:nth-of-type(3) span]
+2023-07-08 21:29:54 INFO  TestBase:87 - Finding Element: By.cssSelector: table.table  thead tr td
+2023-07-08 21:29:54 INFO  TestBase:93 - Found Element: By.cssSelector: table.table  thead tr td
+2023-07-08 21:29:56 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:30:05 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-08 21:30:05 INFO  TestBase:87 - Finding Element: By.cssSelector: #search input
+2023-07-08 21:30:05 INFO  TestBase:93 - Found Element: By.cssSelector: #search input
+2023-07-08 21:30:06 INFO  TestBase:87 - Finding Element: By.cssSelector: #search button
+2023-07-08 21:30:06 INFO  TestBase:93 - Found Element: By.cssSelector: #search button
+2023-07-08 21:30:07 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (71a3af851ae2efaeee037dec48ffa785)] -> css selector: #search button]
+2023-07-08 21:30:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.col-sm-12 h1
+2023-07-08 21:30:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.col-sm-12 h1
