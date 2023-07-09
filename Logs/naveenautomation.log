@@ -3750,3 +3750,32 @@
 2023-07-09 00:24:12 INFO  TestBase:87 - Finding Element: By.cssSelector: div.col-sm-12 h1
 2023-07-09 00:24:12 INFO  TestBase:93 - Found Element: By.cssSelector: div.col-sm-12 h1
 2023-07-09 00:24:13 INFO  TestBase:17 - Test validateSearchBar Passed 
+2023-07-09 13:43:54 INFO  TestBase:39 - Navigating to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 13:43:59 INFO  TestBase:45 - Navigated to URL: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+2023-07-09 13:43:59 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 13:43:59 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline>li:nth-of-type(2) a
+2023-07-09 13:43:59 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0ea8e2e3adfc5e35e1f1634a7253afcc)] -> css selector: ul.list-inline>li:nth-of-type(2) a]
+2023-07-09 13:43:59 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-09 13:43:59 INFO  TestBase:93 - Found Element: By.cssSelector: ul.list-inline li:nth-of-type(2) ul>li 
+2023-07-09 13:44:00 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0ea8e2e3adfc5e35e1f1634a7253afcc)] -> css selector: ul.list-inline li:nth-of-type(2) ul>li ]
+2023-07-09 13:44:00 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-firstname
+2023-07-09 13:44:01 INFO  TestBase:93 - Found Element: By.cssSelector: #input-firstname
+2023-07-09 13:44:01 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-lastname
+2023-07-09 13:44:01 INFO  TestBase:93 - Found Element: By.cssSelector: #input-lastname
+2023-07-09 13:44:01 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-email
+2023-07-09 13:44:01 INFO  TestBase:93 - Found Element: By.cssSelector: #input-email
+2023-07-09 13:44:01 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-telephone
+2023-07-09 13:44:01 INFO  TestBase:93 - Found Element: By.cssSelector: #input-telephone
+2023-07-09 13:44:01 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-password
+2023-07-09 13:44:02 INFO  TestBase:93 - Found Element: By.cssSelector: #input-password
+2023-07-09 13:44:02 INFO  TestBase:87 - Finding Element: By.cssSelector: #input-confirm
+2023-07-09 13:44:02 INFO  TestBase:93 - Found Element: By.cssSelector: #input-confirm
+2023-07-09 13:44:02 INFO  TestBase:87 - Finding Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-09 13:44:02 INFO  TestBase:93 - Found Element: By.xpath: (//input[@name='newsletter']) [1]
+2023-07-09 13:44:02 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='checkbox']
+2023-07-09 13:44:02 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='checkbox']
+2023-07-09 13:44:02 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (0ea8e2e3adfc5e35e1f1634a7253afcc)] -> css selector: input[type='checkbox']]
+2023-07-09 13:44:02 INFO  TestBase:87 - Finding Element: By.cssSelector: input[type='submit']
+2023-07-09 13:44:02 INFO  TestBase:93 - Found Element: By.cssSelector: input[type='submit']
+2023-07-09 13:44:03 INFO  TestBase:87 - Finding Element: By.cssSelector: #content h1
+2023-07-09 13:44:03 INFO  TestBase:93 - Found Element: By.cssSelector: #content h1

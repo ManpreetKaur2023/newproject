@@ -1,5 +1,7 @@
 package com.naveenautomationlabs.automationFramework.pages;
 
+import java.util.UUID;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,6 +21,10 @@ public class RegisterAccount extends TestBase {
 
 	}
 
+	public static String randomEmail = UUID.randomUUID().toString() + "@email.com"; // To generate unique random emailId.
+	public static  String randomPassword = UUID.randomUUID().toString().substring(0, 8); // To generate unique random password.
+	
+	
 	@FindBy(css = "#input-firstname")
 	private WebElement firstNameField;
 
@@ -58,7 +64,7 @@ public class RegisterAccount extends TestBase {
 	}
 
 	private void enetrEmail() {
-		email.sendKeys("wxyz9876@gmail.com");
+		email.sendKeys(randomEmail);
 	}
 
 	private void enetrTelephone() {
@@ -66,11 +72,11 @@ public class RegisterAccount extends TestBase {
 	}
 
 	private void enetrPassword() {
-		password.sendKeys("Password1");
+		password.sendKeys(randomPassword);
 	}
 
 	private void enetrConfirmPassword() {
-		confirmPassword.sendKeys("Password1");
+		confirmPassword.sendKeys(randomPassword);
 	}
 
 	private void selectSubscribeYesRadioBtn() {
