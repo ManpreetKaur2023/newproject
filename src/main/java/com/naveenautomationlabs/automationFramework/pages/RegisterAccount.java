@@ -58,7 +58,7 @@ public class RegisterAccount extends TestBase {
 	}
 
 	private void enetrEmail() {
-		email.sendKeys("wxyz987@gmail.com");
+		email.sendKeys("wxyz9876@gmail.com");
 	}
 
 	private void enetrTelephone() {

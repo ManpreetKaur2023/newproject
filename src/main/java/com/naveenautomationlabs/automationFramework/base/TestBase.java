@@ -36,9 +36,12 @@ public class TestBase {
 	public static WebDriverWait wait;
 
 	private Browsers browserName = Browsers.CHROME;
+	//private Browsers browserName ;
+	
 	private Environments environment=Environments.Prod;
-
+//added argument and this line
 	public TestBase() {
+		//this.browserName=Browsers.valueOf(browsername.toUpperCase());
 		prop = new Properties();
 		try {
 			fileInputStream = new FileInputStream(

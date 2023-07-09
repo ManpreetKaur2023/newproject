@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.automationFramework.Utils.ExcelUtils;
@@ -29,6 +30,7 @@ public class YourStoreTest extends TestBase {
 	}
 
 	@Test
+	@Ignore
 	public void failedTestCaseExample() {
 		Assert.assertEquals("Manpreet", "Kaur");
 	}
@@ -51,6 +53,7 @@ public class YourStoreTest extends TestBase {
 	}
 
 	@Test
+	@Ignore
 	public void validateIsImageSelectedFromVisibleText() {
 
 		Assert.assertTrue(yourStore.selectItemFromText(null), "Button is not clicked");

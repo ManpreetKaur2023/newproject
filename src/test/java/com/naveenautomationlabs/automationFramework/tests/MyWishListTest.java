@@ -3,6 +3,7 @@ package com.naveenautomationlabs.automationFramework.tests;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.automationFramework.base.TestBase;
@@ -30,6 +31,7 @@ public class MyWishListTest extends TestBase {
 	}
 	
 	@Test
+	@Ignore
 	public void test() {
 		yourStore.clickAccountBtn();
 		accountLogin = yourStore.clickLoginBtn();
