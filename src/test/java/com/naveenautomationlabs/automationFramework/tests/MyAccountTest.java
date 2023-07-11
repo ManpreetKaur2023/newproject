@@ -37,7 +37,7 @@ public class MyAccountTest extends TestBase {
 	}
 
 	@Test
-	@Ignore
+	
 	public void validateSideNavigationBar() {
 		yourStore.clickAccountBtn();
 		accountLogin = yourStore.clickLoginBtn();

@@ -35,13 +35,12 @@ public class TestBase {
 	private EventFiringWebDriver eDriver;
 	public static WebDriverWait wait;
 
-	private Browsers browserName = Browsers.CHROME;
-	//private Browsers browserName ;
-	
-	private Environments environment=Environments.Prod;
-//added argument and this line
+	//private Browsers browserName = Browsers.CHROME;
+
+	private Environments environment = Environments.Prod;
+
 	public TestBase() {
-		//this.browserName=Browsers.valueOf(browsername.toUpperCase());
+
 		prop = new Properties();
 		try {
 			fileInputStream = new FileInputStream(
@@ -69,11 +68,13 @@ public class TestBase {
 	}
 
 	public void intialisation() {
+		String browser=System.getProperty("Browsers", "Chrome");
+		switch(browser) {
 
-		switch (browserName.getBrowserName()) {
+		//switch (browserName.getBrowserName()) {
 		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
- 			break;
+			break;
 		case "Edge":
 			wd = WebDriverManager.edgedriver().create();
 			break;

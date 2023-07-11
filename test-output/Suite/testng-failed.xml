@@ -10,22 +10,12 @@
     <classes>
       <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountTest">
         <methods>
-          <include name="validateLoginUsingValidCredential"/>
           <include name="validateSideNavigationBar"/>
           <include name="quit"/>
           <include name="setUp"/>
           <include name="setUpLogger"/>
         </methods>
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyAccountTest -->
-      <class name="com.naveenautomationlabs.automationFramework.tests.YourStoreTest">
-        <methods>
-          <include name="validateIsImageSelectedFromVisibleText"/>
-          <include name="setUp"/>
-          <include name="quit"/>
-          <include name="failedTestCaseExample"/>
-          <include name="setUpLogger"/>
-        </methods>
-      </class> <!-- com.naveenautomationlabs.automationFramework.tests.YourStoreTest -->
       <class name="com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest">
         <methods>
           <include name="validateUserRegisterWithValidDetails"/>
@@ -34,6 +24,14 @@
           <include name="setUpLogger"/>
         </methods>
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.AccountHasBeenCreatedTest -->
+      <class name="com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest">
+        <methods>
+          <include name="validateUserRegisterWithAlreadyRegisteredEmail"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="setUpLogger"/>
+        </methods>
+      </class> <!-- com.naveenautomationlabs.automationFramework.tests.RegisterAccountTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

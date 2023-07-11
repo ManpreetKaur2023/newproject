@@ -5,9 +5,9 @@
     <classes>
       <class name="com.naveenautomationlabs.automationFramework.tests.MyAccountTest">
         <methods>
+          <include name="validateSideNavigationBar"/>
           <include name="quit"/>
           <include name="setUp"/>
-          <include name="loginTest"/>
           <include name="setUpLogger"/>
         </methods>
       </class> <!-- com.naveenautomationlabs.automationFramework.tests.MyAccountTest -->
